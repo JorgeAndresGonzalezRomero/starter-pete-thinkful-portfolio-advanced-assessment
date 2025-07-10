@@ -76,3 +76,18 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.header-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* space between h1 and nav */
+  flex-wrap: wrap; /* so it wraps on small screens */
+  text-align: center;
+}
+
+.header-flex h1,
+.header-flex nav {
+  margin: 0;
+}
+
