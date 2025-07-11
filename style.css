@@ -91,3 +91,22 @@ hr {
   margin: 0;
 }
 
+/* About section 8/
+
+.about-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* keeps it responsive */
+  margin-bottom: 20px;
+}
+
+.about-heading {
+  margin: 0;
+  text-align: left;
+}
+
+.about-img img {
+  max-width: 180px;
+}
