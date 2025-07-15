@@ -93,23 +93,25 @@ hr {
 
 /* About section */
 
-.about-flex {
+.about-row {
   display: flex;
+  flex-direction: row; /* ensures horizontal layout */
   align-items: flex-start;
   gap: 30px;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* force same-line layout */
 }
 
-.about-img img {
+.about-row img {
   max-width: 180px;
   height: auto;
 }
 
 .about-text {
-  flex: 1;
   text-align: left;
+  flex: 1;
 }
+
+
 /*portfolio*/
 
 .portfolio-grid {
