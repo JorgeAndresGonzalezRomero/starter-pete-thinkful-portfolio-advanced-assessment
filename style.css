@@ -110,3 +110,36 @@ hr {
   flex: 1;
   text-align: left;
 }
+/*portfolio*/
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.portfolio-grid section {
+  
+  padding: 20px;
+ 
+  text-align: center;
+}
+
+.portfolio-grid h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.portfolio-grid img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.portfolio-grid p {
+  line-height: 1.4;
+  font-size: 14px;
+}
+
